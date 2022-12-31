@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".faculty.addTeacher">
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:padding="16dp">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/avatarprofile"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:id="@+id/addTeacherImage">
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp">
+
+      <com.google.android.material.textfield.TextInputEditText
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="Name"
+          android:paddingTop="16dp"
+          android:id="@+id/addTeacherName"
+          android:inputType="text"
+          style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp">
+
+      <com.google.android.material.textfield.TextInputEditText
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="Email"
+          android:paddingTop="16dp"
+          android:id="@+id/addTeacherEmail"
+          android:inputType="textEmailAddress"
+          style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp">
+
+      <com.google.android.material.textfield.TextInputEditText
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="post"
+          android:paddingTop="16dp"
+          android:id="@+id/addTeacherPost"
+          android:inputType="text"
+          style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp">
+
+      <com.google.android.material.textfield.TextInputEditText
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="Subject"
+          android:paddingTop="16dp"
+          android:id="@+id/addTeacherSubject"
+          android:inputType="text"
+          style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addteacher_category"
+        android:spinnerMode="dropdown"
+        android:background="@android:drawable/btn_dropdown"
+        android:gravity="center"
+        android:layout_marginVertical="16dp" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Teacher"
+        android:layout_marginTop="16dp"
+        android:textAllCaps="false"
+        android:id="@+id/addteacherbtn">
+
+    </com.google.android.material.button.MaterialButton>
+
+
+  </LinearLayout>
+
+  </ScrollView>

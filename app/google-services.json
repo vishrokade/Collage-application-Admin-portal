@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "751710059208",
+    "project_id": "drdyp-1ae55",
+    "storage_bucket": "drdyp-1ae55.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:751710059208:android:1bb47e92d2b9cf9cf503fd",
+        "android_client_info": {
+          "package_name": "com.example.drdypadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "751710059208-u4l1s57b4qiam3e43q9ugj17dl268mcl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqD72QaRIlVVZu5jPNHKl3dVHoo0ikh0I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "751710059208-u4l1s57b4qiam3e43q9ugj17dl268mcl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
